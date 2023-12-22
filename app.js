@@ -2,7 +2,7 @@
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "PUT UR API KEY",
 });
 
 async function summarize(TextToBeSummarized){
